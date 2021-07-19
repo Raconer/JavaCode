@@ -30,11 +30,10 @@ import java.util.HashMap;
 */
 public class phoneNumberList {
     public static boolean solution(String[] phone_book) {
-        HashMap<String, Integer> phoneBookMap = new HashMap();
+        HashMap<String, Boolean> phoneBookMap = new HashMap();
        
-
         for(String number : phone_book){
-            phoneBookMap.put(number, 0);
+            phoneBookMap.put(number, false);
         }
         for(String key : phoneBookMap.keySet()){
             for(int j = 1; j < key.length(); j++){
