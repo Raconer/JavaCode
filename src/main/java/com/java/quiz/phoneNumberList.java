@@ -38,7 +38,7 @@ public class phoneNumberList {
         for(String key : phoneBookMap.keySet()){
             for(int j = 1; j < key.length(); j++){
                 if(phoneBookMap.containsKey(key.substring(0, j)))
-                    return false;
+                    return !phoneBookMap.get(key);
             }
         }
         
