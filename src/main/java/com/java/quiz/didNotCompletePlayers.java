@@ -23,7 +23,7 @@ import java.util.HashMap;
     ["marina", "josipa", "nikola", "vinko", "filipa"]	["josipa", "filipa", "marina", "nikola"]	"vinko"
     ["mislav", "stanko", "mislav", "ana"]	            ["stanko", "ana", "mislav"]	                "mislav"
     */
-public class didNotCompletePlayers {
+public class DidNotCompletePlayers {
    
     public static String solution(String[] participant, String[] completion) {
         String answer = "";

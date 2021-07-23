@@ -35,7 +35,7 @@ import java.util.HashMap;
     [["crowmask", "face"], ["bluesunglasses", "face"], ["smoky_makeup", "face"]]	            3
     
 */
-public class spyClothes {
+public class SpyClothes {
     public static int solution(String[][] clothes) {
         HashMap<String, Integer> per = new HashMap<>();
         int answer = 1;

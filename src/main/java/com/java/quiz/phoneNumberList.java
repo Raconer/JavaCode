@@ -28,11 +28,11 @@ import java.util.HashMap;
     ["123","456","789"]	                true
     ["12","123","1235","567","88"]	    false
 */
-public class phoneNumberList {
-    public static boolean solution(String[] phone_book) {
-        HashMap<String, Boolean> phoneBookMap = new HashMap();
+public class PhoneNumberList {
+    public static boolean solution(String[] phoneBook) {
+        HashMap<String, Boolean> phoneBookMap = new HashMap<>();
        
-        for(String number : phone_book){
+        for(String number : phoneBook){
             phoneBookMap.put(number, false);
         }
         for(String key : phoneBookMap.keySet()){
