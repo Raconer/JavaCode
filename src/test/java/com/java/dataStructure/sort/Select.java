@@ -1,19 +1,36 @@
 package com.java.dataStructure.sort;
 
+import java.util.Arrays;
+
 public class Select {
-    public Select(){}
+
+    private static CommonSort commonSort = new CommonSort();
 
     public static void selectSort(int[] arr){
-        int length = arr.length;
+        int size = arr.length;
+        int roundCnt = 0, swapCnt = 0;
 
-        for(int i = 0; i < length - 1; i++){
-            for(int j = i+1; j < length; j++){
-                if(arr[i] > arr[j]){
-                    int temp = arr[i];
-                    arr[i] = arr[j];
-                    arr[j] = temp;
-                }  
+        for(int i = 0; i < size - 1; i++) {
+            int index = i;
+            for(int j = i + 1; j < size; j++){
+                commonSort.indexToString(index, j);
+               
+                if(arr[index] > arr[j]){
+                    swapCnt++;
+                    index = j;
+                }
             }
+            roundCnt++;
+            commonSort.swapToString(i, index);
+            commonSort.swap(arr, i, index);
+            System.out.println();
         }
+        System.out.println(size + "개 Select Sorting("+roundCnt+"라운드)  : 총" + swapCnt+"회");
+        System.out.println(Arrays.toString(arr));
+    }
+
+    public static void main(String[] args) {
+        int[] arr = commonSort.testIntArr();
+        selectSort(arr);
     }
 }
