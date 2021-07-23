@@ -1,14 +1,10 @@
 package com.java.quiz;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
-import java.util.logging.Level;
 import java.util.logging.Logger;
-
-import javax.swing.event.SwingPropertyChangeSupport;
 
 /* 
     문제 설명
@@ -86,10 +82,9 @@ public class BestAlbum {
     }
 
     public static void main(String[] args) {
-        // String[] genres = {"classic", "pop", "classic", "classic", "pop"};
-        // int[] plays = {500, 2500, 150, 800, 2500};
         String[] genres = {"classic", "pop", "classic", "classic", "pop"};
         int[] plays = {500, 2500, 150, 800, 2500};
+       
         int[] answers = {4, 1, 3, 0};
         int[] results = solution(genres, plays);
         
