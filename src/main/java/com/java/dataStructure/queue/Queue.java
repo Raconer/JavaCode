@@ -1,5 +1,8 @@
 package com.java.dataStructure.queue;
 
+/* 
+ * 선입 선출
+ */
 public class Queue {
     private int front; // 가장 첫 원소
     private int rear; // 가장 끝 원소

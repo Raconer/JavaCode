@@ -1,7 +1,7 @@
-package com.java.dataStructure.linkedList.q;
+package com.java.quiz;
 // Third Contents
 
-import com.java.dataStructure.linkedList.LinkedList;
+import com.java.quiz.common.LinkedList;
 
 // 중복 제거
 // 공간 복잡도 O(1), 시간 복잡도 O(N^2)

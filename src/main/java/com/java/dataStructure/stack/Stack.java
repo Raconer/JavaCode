@@ -1,5 +1,18 @@
 package com.java.dataStructure.stack;
 
+
+/* 
+ * 선입 후출
+ * 
+ * pop
+ * push
+ * peek : 마지막 데이터 확인
+ * isEmpty : 비어있는지 확인
+ */
+
+/**
+ * InnerStack
+ */
 public class Stack {
     int top;
     int size;

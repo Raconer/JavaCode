@@ -1,4 +1,5 @@
-package com.java.dataStructure.linkedList;
+package com.java.quiz.common;
+
 
 public class LinkedList {
     public Node header;

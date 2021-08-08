@@ -1,4 +1,4 @@
-package com.java.dataStructure.linkedList.q;
+package com.java.quiz;
 // First Contents
 /* 단방향 Linked List */
 class Node{

@@ -1,7 +1,7 @@
-package com.java.dataStructure.linkedList.q;
+package com.java.quiz;
 
-import com.java.dataStructure.linkedList.LinkedList;
-import com.java.dataStructure.linkedList.LinkedList.Node;
+import com.java.quiz.common.LinkedList;
+import com.java.quiz.common.LinkedList.Node;
 
 // 4th Content
 

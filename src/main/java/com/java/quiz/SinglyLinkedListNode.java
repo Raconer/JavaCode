@@ -1,7 +1,7 @@
-package com.java.dataStructure.linkedList.q;
+package com.java.quiz;
 // Second Contents
 
-import com.java.dataStructure.linkedList.LinkedList;
+import com.java.quiz.common.LinkedList;
 
 /* 
     이전 예제(NodeEx.java)는 매우 불완전한 상태이다.

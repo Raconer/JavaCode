@@ -2,6 +2,8 @@ package com.java.dataStructure.queue;
 
 import org.junit.Test;
 
+
+// 선입 선출
 public class QueueTest {
     
     @Test
